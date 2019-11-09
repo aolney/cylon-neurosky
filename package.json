@@ -4,20 +4,16 @@
   "description": "Cylon module for Neurosky",
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/hybridgroup/cylon-neurosky/issues",
-
   "author": {
     "name": "The Hybrid Group",
     "email": "cylonjs@hybridgroup.com",
     "url": "http://hybridgroup.com"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/hybridgroup/cylon-neurosky"
   },
-
   "license": "Apache-2.0",
-
   "keywords": [
     "cylon",
     "cylonjs",
@@ -33,19 +29,17 @@
     "brainwave",
     "bci"
   ],
-
   "devDependencies": {
-    "sinon-chai": "2.8.0",
     "chai": "3.0.0",
-    "mocha": "2.2.5",
+    "eslint": "^6.6.0",
+    "mocha": "^6.2.2",
     "sinon": "1.15.4",
-    "eslint": "0.24.0"
+    "sinon-chai": "2.8.0"
   },
-
   "dependencies": {
     "cylon": "~1.2.0",
-    "serialport": "^2.0.0",
-    "browser-serialport": "~2.0.1",
+    "serialport": "^8.0.5",
+    "browser-serialport": "^2.1.0",
     "buffy": "~0.0.5"
   }
 }
